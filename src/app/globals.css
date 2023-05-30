@@ -24,3 +24,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.text{
+  height: 50px;
+  overflow:hidden;
+  text-align: center;
+
+}
+.text__item{
+ 
+ height: 100px;
+ 
+  animation: move 15s ease-in-out infinite alternate;
+  text-align: center;
+}
+
+@keyframes move {
+  25%{
+transform: translateY(-50px);
+  }
+  50%{
+    transform: translateY(-100px);
+  }
+ 
+
+  
+}
+.text__item_list{
+ 
+  height: 50px;
+ 
+  left:-80px;
+  font-size: 23px;
+  font-weight: bold;
+  display: flex auto;
+ 
+  text-align: center;
+}
+
+
